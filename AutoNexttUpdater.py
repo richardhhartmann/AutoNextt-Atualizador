@@ -6,7 +6,8 @@ import time
 import hashlib
 import ctypes
 import subprocess
-from pathlib import Path
+import psutil
+
 
 def verificar_hash(arquivo: str, hash_esperado: str) -> bool:
     """Verifica a integridade do arquivo baixado"""
@@ -24,15 +25,48 @@ def executar_como_admin(caminho_exe: str):
     except Exception:
         return False
 
-def atualizar(url_novo_exe: str, hash_esperado: str, max_tentativas=3):
-    try:
-        caminho_atual = sys.argv[0]
-        pasta_atual = os.path.dirname(caminho_atual)
-        nome_exe = os.path.basename(caminho_atual)
-        caminho_temp = os.path.join(pasta_atual, f"{nome_exe}.temp")
-        caminho_backup = os.path.join(pasta_atual, f"{nome_exe}.bak")
 
-        # Tentar várias vezes em caso de falha de rede
+def aguardar_encerramento_arquivo(caminho_arquivo, timeout=60):
+    """Aguarda até que nenhum processo esteja usando o arquivo"""
+    print(f"Aguardando {os.path.basename(caminho_arquivo)} encerrar...")
+
+    inicio = time.time()
+    while time.time() - inicio < timeout:
+        if not arquivo_em_uso(caminho_arquivo):
+            print("Arquivo liberado.")
+            return True
+        time.sleep(1)
+
+    print("Tempo limite atingido esperando arquivo liberar.")
+    return False
+
+
+def arquivo_em_uso(caminho_arquivo):
+    """Verifica se o arquivo está sendo usado por algum processo"""
+    for proc in psutil.process_iter(['pid', 'name', 'exe', 'cmdline']):
+        try:
+            if not proc.is_running():
+                continue
+            if proc.exe() and os.path.samefile(proc.exe(), caminho_arquivo):
+                return True
+            if proc.cmdline() and caminho_arquivo in proc.cmdline():
+                return True
+        except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
+            continue
+    return False
+
+
+def atualizar(caminho_alvo: str, url_novo_exe: str, hash_esperado: str, max_tentativas=3):
+    try:
+        pasta_alvo = os.path.dirname(caminho_alvo)
+        nome_arquivo = os.path.basename(caminho_alvo)
+        caminho_temp = os.path.join(pasta_alvo, f"{nome_arquivo}.temp")
+        caminho_backup = os.path.join(pasta_alvo, f"{nome_arquivo}.bak")
+
+        if not aguardar_encerramento_arquivo(caminho_alvo):
+            raise RuntimeError("O arquivo não foi encerrado. Atualização abortada.")
+
+        # Download
         for tentativa in range(max_tentativas):
             try:
                 print(f"Baixando nova versão (tentativa {tentativa + 1})...")
@@ -42,45 +76,51 @@ def atualizar(url_novo_exe: str, hash_esperado: str, max_tentativas=3):
                         for chunk in r.iter_content(chunk_size=8192):
                             if chunk:
                                 f.write(chunk)
-                
-                # Verificar integridade do arquivo
+
                 if not verificar_hash(caminho_temp, hash_esperado):
                     raise ValueError("Hash de verificação falhou - arquivo corrompido ou modificado")
-                
-                break  # Se chegou aqui, download foi bem sucedido
+
+                break
             except Exception as e:
                 if tentativa == max_tentativas - 1:
                     raise
-                time.sleep(5)  # Espera antes de tentar novamente
+                print(f"Erro: {e}. Tentando novamente em 5 segundos...")
+                time.sleep(5)
                 continue
 
-        # Fechar a instância atual se ainda estiver em execução
-        print("Finalizando instância atual...")
-        time.sleep(2)  # Dar tempo para o programa encerrar
+        # Backup
+        if os.path.exists(caminho_alvo):
+            shutil.copy2(caminho_alvo, caminho_backup)
 
-        # Criar backup do arquivo atual
-        if os.path.exists(caminho_atual):
-            shutil.copy2(caminho_atual, caminho_backup)
-
-        # Substituir o arquivo
+        # Substituir
         print("Substituindo executável...")
-        os.replace(caminho_temp, caminho_atual)
+        os.replace(caminho_temp, caminho_alvo)
 
-        # Tentar executar o novo arquivo
+        # Relançar
         print("Iniciando nova versão...")
         try:
-            subprocess.Popen([caminho_atual], shell=True)
+            subprocess.Popen([caminho_alvo], shell=True)
         except Exception:
-            # Se falhar, tentar como admin
-            if not executar_como_admin(caminho_atual):
+            if not executar_como_admin(caminho_alvo):
                 raise
 
         sys.exit(0)
 
     except Exception as e:
         print(f"Erro na atualização: {e}")
-        # Tentar restaurar o backup se existir
         if os.path.exists(caminho_backup):
             print("Restaurando versão anterior...")
-            os.replace(caminho_backup, caminho_atual)
+            os.replace(caminho_backup, caminho_alvo)
         sys.exit(1)
+
+
+if __name__ == "__main__":
+    if len(sys.argv) < 4:
+        print("Uso: atualizador.exe <caminho_do_arquivo_alvo> <url_novo_exe> <hash_esperado>")
+        sys.exit(1)
+
+    caminho_alvo = sys.argv[1]
+    url_novo_exe = sys.argv[2]
+    hash_esperado = sys.argv[3]
+
+    atualizar(caminho_alvo, url_novo_exe, hash_esperado)
