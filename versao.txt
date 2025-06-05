@@ -1,2 +1,2 @@
-version=1.2.1
-hash=d8e25efe1ccf6b00ee0eb42d847dcef4f0f31d51da42d47db6bf6bd139559305
+version=1.2.2
+hash=4434e3d4b948aca6683d7eb67fcfd0f5703843a2dcb824abbd1a09486defa1c2
