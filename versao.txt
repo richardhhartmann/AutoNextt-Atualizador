@@ -1,3 +1,3 @@
-version=1.2.9.7
-hash=a6b518da01bc37618a7ad09af22571665efb9d04b5f733185a034d30a155b9ac
-changelog=-ODBC Drivers agora são instalados juntamente ao software para funcionamento correto da planilha.;-Botão de duplicar valores e de autopreenchimento de descrição na planilha de exportação de dados.
+version=1.2.9.8
+hash=efb8284822d1f1e11f8b80ed54e5719f8241167f0cd610ce6b8a5fd0f723f8c0
+changelog=- ODBC Drivers agora são instalados juntamente ao software para funcionamento correto da planilha.;- Botão de duplicar valores e de autopreenchimento de descrição na planilha de exportação de dados.
