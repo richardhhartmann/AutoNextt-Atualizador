@@ -1,2 +1,3 @@
-version=1.2.9.4
-hash=6f8ac8ce07054e0d69f3ded218f81e38ac9f79ddd49f0a5edd468ca6cd4c3780
+version=1.2.9.5
+hash=588c4c59f3c8fc01c4c589adc923a2b35aa4e24eb4fd38232d0626b15740ce8e
+changelog=changelog numero um :);-changelog #1;*changelog #2
