@@ -1,3 +1,2 @@
-version=1.2.9.9.4
-hash=84c7c9e7c0f1543b8f160301726dc9b22d3a393bc59f723159b2368d74ca9eee
-changelog=tem que colocar o --noconsole na configuração né durrr
+version=1.2.9.9.5
+hash=96d0bdc1f229c04e8ea1767dd88cee9c1aaa47323c4762244154f7f634e54bb7
