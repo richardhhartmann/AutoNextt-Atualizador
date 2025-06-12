@@ -1,3 +1,3 @@
-version=1.2.9.9
-hash=149d6ab4d61555919d2210ab618cce07fe2d5a35912808dc7bf3c74e4f75098c
-changelog=- Agora, a conexão é estabelecida a partir do arquivo 'Conexao.udl' na mesma pasta do Matriz.;- O programa irá tentar encontrar o driver de SQL mais recente instalado juntamente com este .exe, caso não encontre, chamará um fallback para os drivers mais recentes do Windows.
+version=1.2.9.9.1
+hash=570f984c5783423f26396acaaa26dcbcad52a21a5a97e3d7047463a66fd42f0c
+changelog=- Teste "--noconsole";- Pré 1.3
