@@ -1,3 +1,2 @@
-version=1.3.3
-hash=644a522c456378a09d7d4f13a688823c61f5415e2eb65993c87cf9c2af8aec65
-changelog=-Códigos de produto são importados em tempo real para a planilha, e ao clicar duas vezes sobre ele, já será importado para o Cadastro de Pedidos;;Agora é possível realizar operações de UPDATE nos produtos que já existem, diretamente pela planilha;;Agora é possível visualizar todas as referências disponíveis de acordo com a marca digitada, com uso focado na replicação.
+version=1.3.4
+hash=20ef485e0b3aa57aae58de1518953d2df95e66fe867220beabc038ff64853dcb
