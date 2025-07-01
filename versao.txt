@@ -1,3 +1,2 @@
-version=1.3.5
-hash=3655a80516e7e35a1afbfc6ba7dd0c8029a65c83375de7f5bf02e201ceece67d
-changelog=-Correção de bugs;-Implementação de IA
+version=1.3.6
+hash=62d215cce5895d2aef846602647f09b7e5864e94907445333ad2278fabe17e56
