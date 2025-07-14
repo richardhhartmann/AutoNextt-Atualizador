@@ -1,2 +1,3 @@
-version=1.3.6
-hash=62d215cce5895d2aef846602647f09b7e5864e94907445333ad2278fabe17e56
+version=1.3.7
+hash=25c3e7aefc4a6e3498ccd9a117d64fd0e2085ee1a53fc5ae78ea6b744d5c73a5
+changelog=- Grandes modificações na interface, com adição de novas abas e ferramentas.;- UPDATE em Cadastro de Pedidos.
