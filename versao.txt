@@ -1,3 +1,3 @@
 version=1.4.1
-hash=cec8ac623f97c7e17a18ed293f58e79fe7e2245f95b1de3ab56ccd55d564848e
-changelog=Patch de correção OLEDBSQL -> ODBC Driver for SQL Server nos códigos VBA.
+hash=3be9569f623d74115fa4c1e713b72d7510bfe2068514b7aaf82baaa2267d1121
+changelog=1.4.1
