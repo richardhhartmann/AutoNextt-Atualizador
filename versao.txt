@@ -1,3 +1,3 @@
-version=1.4.3
-hash=880541c1fbfa18398f9d2c10669b0ec14883b1b681d75e80165e52151ecb9f2c
-changelog=- Fix de versão web
+version=1.4.4
+hash=148e96b020a0e53cf2209197e4f942a9ce26ea6cda264eb4bb73a08c0026d88e
+changelog= Fix WEB #2
