@@ -1,3 +1,2 @@
-version=1.4.4.1
-hash=1c2bdffa912e65e1b934842b909fe9a27466fb7296ea794ed06d608e205e467b
-changelog=debug=True
+version=1.4.4.2
+hash=e6c8dd678b14658dc43d12c2e1144eac45fc94a6e92b98983513b2ec8223e052
