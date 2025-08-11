@@ -1,3 +1,3 @@
-version=1.4.2
-hash=0b69b9e8a0e21a1c98f6e65171c6e80f0d3427f9e63923e7bc78cca35360c3fb
-changelog=-Integração WEB;-Grades + Packs;-Distribuição entre filiais atualizada
+version=1.4.3
+hash=880541c1fbfa18398f9d2c10669b0ec14883b1b681d75e80165e52151ecb9f2c
+changelog=- Fix de versão web
