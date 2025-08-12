@@ -1,2 +1,3 @@
-version=1.4.4.3
-hash=1a472810222e036c9f52ca763c0ad40897508218f7e844b5444be6ec6f31918b
+version=1.4.5
+hash=d8dfd19090f86c723d693e522f388d5c4afb822acaab82ff7eda6665c7431352
+changelog=- FIX: Parametros fixos e variaveis na versão web.
