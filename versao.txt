@@ -1,3 +1,3 @@
-version=1.4.7
-hash=caba69cc7a8b3b7ce13c18ded36d0151fae8da9a165da196f05986f9ad816941
-changelog=-Refatoração das páginas de visualização de produtos, pedidos, marcas e segmentos.;-Fechamento correto do modal de remarcação;-Ordenação e formatação das filiais no modal de remarcação;-Correções em cadastro de pedidos;fim]
+version=1.4.7.1
+hash=4c7a61bca8a2bb23cfcdaf9d5f193e4a6f4f54440e7458498803b925118c7ddd
+changelog=- FIX Cor X Tamanho;- FIX Atributos de Produto;- FIX Auto redirecionamento para filtragem correta após cadastrar um produto
