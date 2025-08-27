@@ -1,3 +1,3 @@
-version=1.5
-hash=0e6760c362447cbda9ffce68042cce43e4ecea59d5b7850425aabb5f834156b8
-changelog=1.5
+version=1.5.1
+hash=a2ca8f1e517de1d97b8fa898a65035b2c89056f5645a6807753ae1fe348977df
+changelog=- tema claro/escuro;- monitoramento via banco de dados;- atualizações automaticas
