@@ -1,3 +1,3 @@
-version=1.5.4.3
-hash=52dec6d06702aa492fec354da0ff600553536fa60dbdc2cff6dddae2f6fb0285
-changelog=- teste autologin
+version=1.5.5
+hash=ce60add22a1f8e8f2d8589fe5804253c0d4b4bdb185dc322c00cfa57e4946cdb
+changelog=- otimização do codigo;- IA;- página sobre
