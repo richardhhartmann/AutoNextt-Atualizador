@@ -1,3 +1,3 @@
 version=1.5.5
-hash=ce60add22a1f8e8f2d8589fe5804253c0d4b4bdb185dc322c00cfa57e4946cdb
-changelog=- otimização do codigo;- IA;- página sobre
+hash=58cfbd45d2ebdd98daded3dcba7f5309080d0d6d3f5e89477a378377b75e4090
+changelog=- otimização de código;- notificação por email
