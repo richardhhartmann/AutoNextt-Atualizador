@@ -1,3 +1,3 @@
-version=1.5.6.10
-hash=d523bf3b3b9c376d002c9cc70efe408a7f77e222e4950da4e4e8a38b31c30279
-changelog=patch atualização - testando funções remotas 10
+version=1.5.6.11
+hash=7c9e28b153b461e78c98a94e33d9bf21b1bb16a9464ea38cdfadd8fe484fc940
+changelog=patch atualização - testando funções remotas 11
