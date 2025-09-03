@@ -1,3 +1,3 @@
-version=1.5.8.6
-hash=ecdd3e369e93fe3f81df49b49f9573219d9575026fc6eae65f02570deee30d14
-changelog=Teste atualização remota email
+version=1.5.9
+hash=bddc3d423d931bfab8eae714dec28f40cee2521a177de5d1fd9458c38800746f
+changelog=- Acionamento remoto de funções
