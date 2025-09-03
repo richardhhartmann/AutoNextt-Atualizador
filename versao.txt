@@ -1,3 +1,3 @@
-version=1.5.8.1
-hash=bb052cea7d01e4b72fe8daad19a0dc8f7092aa1e759bd6c481dc96298f4d8182
-changelog=Teste atualização remota 1
+version=1.5.8.2
+hash=3be660f1a489f7f444a90689a9fccb51b48f02fffef63e1c011a777ff971fae7
+changelog=Teste atualização remota 2
