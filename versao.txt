@@ -1,3 +1,3 @@
-version=1.5.8
-hash=1dfa9bd2de3ce868d63194238a1b125fc574d322c90d2d19cf22a53726ea9749
-changelog=Melhoria template WEB
+version=1.5.8.1
+hash=bb052cea7d01e4b72fe8daad19a0dc8f7092aa1e759bd6c481dc96298f4d8182
+changelog=Teste atualização remota 1
