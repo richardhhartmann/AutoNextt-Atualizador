@@ -1,3 +1,3 @@
-version=1.5.8.5
-hash=20e2c877ccc531e41590b5b2649ed8383adc76e54a07a82e74fa0aacad4f825e
-changelog=Teste atualização remota 5
+version=1.5.8.6
+hash=ecdd3e369e93fe3f81df49b49f9573219d9575026fc6eae65f02570deee30d14
+changelog=Teste atualização remota email
