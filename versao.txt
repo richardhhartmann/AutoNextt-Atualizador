@@ -1,3 +1,3 @@
-version=1.6
-hash=58e3b4ae99087feb8b6a94fac77a45ccbc64d75c2277525cdcfa70af8282cddc
+version=1.6.1
+hash=30f3684ea34db06e7ac65a74a7331e505b053b194ff003d9e379de8336a3661f
 changelog=Nova brand: "Orbix - Nextt gen CRM";Adicionado tour para novos clientes;Corrigido gradeamento (não filtra mais por tpa_codigo e sim por tpa_descricao, que é um valor padrão);Adicionado filtro de faturamento por filial;Adicionado comparação de filiais
