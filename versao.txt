@@ -1,3 +1,3 @@
-version=1.7
-hash=82fe321e1ff8ac7ace07b8a0ae5c8bf927457507bb5075c6c036d6d252effba9
-changelog=- Melhorias em todos os âmbitos do programa.
+version=1.8
+hash=0edce239e79e2757b7871a77036c2fe36546b9cef341632947456c7b065ad924
+changelog=- Navegar entre packs e produtos no cadastro de pedidos;- Visualizar pedidos (em desenvolvimento);- Imprimir pedidos (em desenvolvimento);- Relatórios mais assertivos;- Filtros avançados para relatórios no geral;- Correção de bugs
