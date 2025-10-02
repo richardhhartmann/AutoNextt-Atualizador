@@ -1,3 +1,3 @@
-version=1.8.1
-hash=b1210f0efd858ed8a7aa00714faaade18cb2ef298b28cdcd1fe7e9860b85a5b9
-changelog=- Navegar entre packs e produtos no cadastro de pedidos ;- Visualizar pedidos (em desenvolvimento) ;- Imprimir pedidos (em desenvolvimento) ;- Relatórios mais assertivos ;- Filtros avançados para relatórios no geral ;- Correção de bugs
+version=1.9
+hash=e1cf7e1b158067ab4f6484b73fc8ceb8ae6aa950da2249d59c58d1e7cbe7f1f3
+changelog=desenvolvimento do porte mobile;modularização para multi franqueados;melhoria na UI;relatorios aprimorados
