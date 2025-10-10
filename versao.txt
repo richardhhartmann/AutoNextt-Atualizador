@@ -1,3 +1,3 @@
-version=1.9.2
-hash=24506b94964cb50ffb7ba28cbaf3255132191eecc009c63c828814cf32068fbc
-changelog=Melhorias de relatório de visão geral;Melhorias na home;Navegação entre produtos na página de navegação de produtos detalhada
+version=1.10
+hash=e5bf65264ce1e6a01bd6dce3bb837250140690955ad122e6be4476de64b64d87
+changelog=Acesso de fotos via IPV4.
