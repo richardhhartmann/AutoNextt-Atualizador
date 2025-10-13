@@ -1,3 +1,3 @@
-version=1.10
-hash=e5bf65264ce1e6a01bd6dce3bb837250140690955ad122e6be4476de64b64d87
-changelog=Acesso de fotos via IPV4.
+version=1.11
+hash=86ebea9a1d51562cff2dc81742a4af3295a23fd91250f7735f50f9f279bcbd20
+changelog=Patch atualização correção de conversão no valor de venda no cadastro de produtos
