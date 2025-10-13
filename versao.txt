@@ -1,3 +1,2 @@
-version=1.11
-hash=86ebea9a1d51562cff2dc81742a4af3295a23fd91250f7735f50f9f279bcbd20
-changelog=Patch atualização correção de conversão no valor de venda no cadastro de produtos
+version=1.12
+hash=1c1e7e9cd58e5724c83726b6d6d1c570955980331696ab07864601cdc7405048
