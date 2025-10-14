@@ -1,2 +1,3 @@
-version=1.12
-hash=1c1e7e9cd58e5724c83726b6d6d1c570955980331696ab07864601cdc7405048
+version=1.13
+hash=b3e8d2fa0ef8320e09232437286464f0a93fd7c428b6408bfda5cbac32b22499
+changelog=Cadastro de Produtos aprimorado
