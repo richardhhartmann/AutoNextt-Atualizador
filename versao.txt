@@ -1,3 +1,3 @@
-version=1.13
-hash=b3e8d2fa0ef8320e09232437286464f0a93fd7c428b6408bfda5cbac32b22499
-changelog=Cadastro de Produtos aprimorado
+version=1.14
+hash=991f4c8befaf68e6ce3978823883f63f0827d4e7ac68a2e4c7871913a74cbce4
+changelog=Atualização de valores na home em tempo real;Grade de variações composta trazida para a visualização de produtos detalhada;Funções de visualização de crescimento por marca, segmento, seção e espécie;Cadastro de produtos melhorado;Gerenciador de produtos melhorado
