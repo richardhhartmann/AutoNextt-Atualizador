@@ -1,3 +1,3 @@
 version=1.15.1
-hash=adb965086c2263278ad6367be2b55c26924a365c7826ecfa40582959b2b058ce
+hash=09e9f85718b90e4ab03068df831ae564ab20818870261f355c907a1156cfe715
 changelog=Configuração para novos usuários do sistema;Infraestrutura melhorada para a página de "Usuários";Telas de "Segurança" padronizadas;Fotos HTTP
