@@ -1,3 +1,3 @@
-version=1.15.1
-hash=09e9f85718b90e4ab03068df831ae564ab20818870261f355c907a1156cfe715
-changelog=Configuração para novos usuários do sistema;Infraestrutura melhorada para a página de "Usuários";Telas de "Segurança" padronizadas;Fotos HTTP
+version=1.15.2
+hash=872e90765c7ffc01d45abd6f43f746901d7f91309340c9fa4f2ef6276cc7971d
+changelog=Unificação de valores de estoque;Melhorias para o relatório de movimentações
