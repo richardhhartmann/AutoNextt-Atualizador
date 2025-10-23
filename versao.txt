@@ -1,3 +1,3 @@
-version=1.17
-hash=8b0ab7537ec56da87ee1207a109c28dcfe65ee94bb819d2e76fc5eb07200879b
-changelog=1.17;fdim
+version=1.17.1
+hash=90ebfd47be73caa4c5d0b44c0d71236e77178665d63984ce396fb89b1b9e33fe
+changelog=FIX filtro por filiais na análise de movimentações por variação 
