@@ -1,3 +1,3 @@
-version=1.19
-hash=70b4c60876873223f5f3eb0f1e40d7b2195dcd52569a58542aa4b7e9ac33b21c
-changelog=Correção relatório analítico;Melhor visualização de valores totais;Pódio de produtos na /home
+version=1.19.1
+hash=666a33b0fa2c4fd39127da47973b72616a6fa7d60537feb90f166e7c8003eb72
+changelog=Correção estoque relatório analítico;Melhorias no cadastro de produtos (valor de venda e classificação fiscal)
