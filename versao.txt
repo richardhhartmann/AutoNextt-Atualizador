@@ -1,3 +1,0 @@
-version=1.18.3
-hash=3fe0f335e377e87d06b7a8cead7a41eefec5c2c45806b39d4fa07a126f0ef5e0
-changelog=1.18.3
