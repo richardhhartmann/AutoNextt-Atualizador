@@ -1,3 +1,3 @@
-version=1.18.2
-hash=b0bdffc8641d73a1de91a5eb594f8eeea3b0c5f703c0a0cfe5f688fab7473555
-changelog=1.18.2
+version=1.18.3
+hash=3fe0f335e377e87d06b7a8cead7a41eefec5c2c45806b39d4fa07a126f0ef5e0
+changelog=1.18.3
