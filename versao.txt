@@ -1,3 +1,3 @@
-version=1.19.2
-hash=2b74c1b1a1f857b6216313bc84b6bc2187d7407176302eca09aa62e687517942
-changelog=Correção estoque relatório analítico;Melhorias no cadastro de produtos (valor de venda e classificação fiscal)
+version=1.19.3
+hash=78d186bd9e9bf18fd3369d8c9179c0cc9fdf4d86c4769901dd38c3dad200bfe0
+changelog=Correção remarcação de valores de produtos para aplicar em todas as filiais disponíveis;Análise de produtos em servidores-padrão
