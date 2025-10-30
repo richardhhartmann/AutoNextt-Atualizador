@@ -1,3 +1,3 @@
-version=1.19.3
-hash=78d186bd9e9bf18fd3369d8c9179c0cc9fdf4d86c4769901dd38c3dad200bfe0
-changelog=Correção remarcação de valores de produtos para aplicar em todas as filiais disponíveis;Análise de produtos em servidores-padrão
+version=1.19.4
+hash=076c9238ce241c2e089f102546eeea9d5da4c5b3812f667cb4696a3e8e14a2c6
+changelog=Adicionado atributos de pedido;Adicionado valor de venda do produto no pedido;[DEV] Adicionado custos e atributos de produto no pedido
