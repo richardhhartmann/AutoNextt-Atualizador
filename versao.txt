@@ -1,3 +1,2 @@
-version=1.19.6.2
-hash=4dc42fb26955a635271f83365e98d5aba89e02b2d8789f547959f28dbd5af134
-changelog=Correção gradeamento em visualização detalhada de produtos;Alcance dinâmico de filiais de acordo com usuário e cargo;Lógica de supervisores
+version=1.19.6.3
+hash=364677cfb993fce3e281ac90129d3b33ca1a4d660703761ab695611f3387b462
