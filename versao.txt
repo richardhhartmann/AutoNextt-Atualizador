@@ -1,3 +1,3 @@
-version=1.19.4
-hash=076c9238ce241c2e089f102546eeea9d5da4c5b3812f667cb4696a3e8e14a2c6
-changelog=Adicionado atributos de pedido;Adicionado valor de venda do produto no pedido;[DEV] Adicionado custos e atributos de produto no pedido
+version=1.19.5
+hash=129dea7ec3022ac8258109083f9f9f129a028847bd21ca53e6ce489a0e1d6987
+changelog=Correção gradeamento em visualização detalhada de produtos;Alcance dinâmico de filiais de acordo com usuário e cargo;Lógica de supervisores
