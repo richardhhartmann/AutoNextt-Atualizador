@@ -1,2 +1,3 @@
-version=1.19.6.5
-hash=7abb4cad5726372f0de6ad2b90b821dcb4a1a39c0eec28bbba56e5783cf353b2
+version=1.19.9
+hash=a2270d4e8cf71367b756db519bd53999ef42868c4bef34c9c98c8d9375ed9196
+changelog=Envio de fotos no cadastro de produto;Finalização da lógica de cadastro de pedidos;Omissão de repetição no PDF de desempenho de filiais do grupo Matriz;Permissão de administrador para o cargo "adm shopping"
