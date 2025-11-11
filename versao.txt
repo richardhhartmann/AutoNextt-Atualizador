@@ -1,3 +1,3 @@
-version=1.19.9
-hash=a2270d4e8cf71367b756db519bd53999ef42868c4bef34c9c98c8d9375ed9196
-changelog=Envio de fotos no cadastro de produto;Finalização da lógica de cadastro de pedidos;Omissão de repetição no PDF de desempenho de filiais do grupo Matriz;Permissão de administrador para o cargo "adm shopping"
+version=1.19.9.1
+hash=52c41516632a8b4592ae521872f9f363700d92612aaf34cdd6002e25b401d7c2
+changelog=Corrigido duplicação de grupo Matriz (Consolidado) em visualização detalhada de produto.
