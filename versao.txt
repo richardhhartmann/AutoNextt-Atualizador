@@ -1,3 +1,2 @@
-version=1.19.9.1
-hash=52c41516632a8b4592ae521872f9f363700d92612aaf34cdd6002e25b401d7c2
-changelog=Corrigido duplicação de grupo Matriz (Consolidado) em visualização detalhada de produto.
+version=1.19.9.2
+hash=afe6a614921f792cdca9701020712e9ebf421b1a4237a10bca8e41a004e8e713
