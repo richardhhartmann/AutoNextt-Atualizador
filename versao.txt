@@ -1,3 +1,3 @@
-version=1.20.3
-hash=326b4a70f0376e16496d24f0ae800f32e8d02d168649d7bef06904c1d44af79f
+version=1.20.4
+hash=a60b07311aeaffec7e76a72153508783a0a8bd2dbaf1188cc234e5097495e5c6
 changelog=Busca Global
