@@ -1,3 +1,3 @@
-version=1.19.10
-hash=a933743261214815265c3b455a2dd66396256d7caecabf8f615fa9198d080006
-changelog=Integração Excel - VYA Manager;Ajuste em Desempenho entre Filiais;Melhorias no cadastro de pedidos;Correção de bugs
+version=1.20
+hash=ffeea1cc01154b9876378559c1c831b151f27fef54973e1a86dfbaa66c07ddf6
+changelog=Busca Global
