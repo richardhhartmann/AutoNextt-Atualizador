@@ -1,3 +1,3 @@
-version=1.19.8
-hash=f27794ec0e5df0da101f8e746249919e0a7f447427c5ec116a1407887f1db5e7
-changelog=1.19.8
+version=1.20.6
+hash=f0afcdb08442fb84757eff15b9e11522f169382fd6999dc6edc530f84f4e63d4
+changelog=Busca global
