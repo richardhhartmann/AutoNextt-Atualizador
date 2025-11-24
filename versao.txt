@@ -1,3 +1,3 @@
-version=1.20.5
-hash=acd8fd98f5e7a909383a7d7ab36e8aea5935a7d3291302bbaf7ff0e2a0d163e7
-changelog=Busca Global
+version=1.21.1
+hash=4702562cc049a380756b0f335248f10f91278fb681818681cfd29a04e9978360
+changelog=Aprimoramento na página de marcas;Aprimoramento na home
