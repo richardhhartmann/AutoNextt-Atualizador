@@ -1,3 +1,2 @@
-version=1.21.1
-hash=4702562cc049a380756b0f335248f10f91278fb681818681cfd29a04e9978360
-changelog=Aprimoramento na página de marcas;Aprimoramento na home
+version=1.21.2
+hash=3f42d62face6c983312ff0fa9afc071d119691ce9462eafa43c400b9a6f298c3
