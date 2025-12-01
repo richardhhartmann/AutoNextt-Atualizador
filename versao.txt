@@ -1,2 +1,3 @@
-version=1.21.2
-hash=3f42d62face6c983312ff0fa9afc071d119691ce9462eafa43c400b9a6f298c3
+version=1.21.3
+hash=6674f658c7cde123aaee0a1bf807550eea8738b8b94f814413c96a126bf6cfdb
+changelog=1.21.3
