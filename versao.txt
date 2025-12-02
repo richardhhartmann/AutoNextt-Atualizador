@@ -1,3 +1,3 @@
-version=1.21.71
-hash=3d497cc395166cd1e2bdfe008f5189798e8513dbbfb221e9a74cc5ee6a29392f
-changelog=1.21.71
+version=1.21.72
+hash=e54046d31765fb6e566887d7ab00c5ed5cf7d8ccc7939c7c3db8eeb7d255b4fa
+changelog=1.21.72
