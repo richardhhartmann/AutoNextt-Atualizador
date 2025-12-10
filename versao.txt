@@ -1,2 +1,3 @@
-version=1.23.3
-hash=461d19f6ecb516e97dd98a50005448892afc9926fc22a4e17c6d10b2157d496a
+version=1.23.4
+hash=73cfa9645f31912200c1aa28e5f94d6dea8633fe5d89ab8953c7acbd33f2b246
+changelog=Início desenvolvimento da funcionalidade de transferências;Correção de card de "Cadastrar Produtos" em "Cadastros Básicos"
