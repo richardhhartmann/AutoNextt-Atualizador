@@ -1,2 +1,3 @@
-version=1.24.3
-hash=6d7249f17563f5dc83e59044e6b308ac071d6b72d9adaf27113e16ebf0b0a071
+version=1.25
+hash=62a80a687cfde777b050cf77186401cc0f4bae822f77af22b7a511b5e51d910c
+changelog=- porteee mobile;- transfeerencia
