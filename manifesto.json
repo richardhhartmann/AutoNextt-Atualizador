@@ -1,5 +1,5 @@
 {
-    "versao_estavel": "1.73",
+    "versao_estavel": "1.74",
     "versao_piloto": "1.74",
     "alvos_piloto": [
         "NEXTTDEMxMTZ"
@@ -11,7 +11,7 @@
         },
         "1.74": {
             "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager_v1.74.zip",
-            "hash": "fa8cff510871c9d8223e6ca55adecb7bd8caa43d91ecf42ac5cec5400eaa92ca"
+            "hash": "09bd6ae5862b737bfd7c2542563d065a9b5f0d8b48ee112a91c72b6027482518"
         }
     },
     "changelogs": {
