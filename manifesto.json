@@ -2,7 +2,6 @@
     "versao_estavel": "1.79",
     "versao_piloto": "1.80",
     "alvos_piloto": [
-        "srv-delfiori-mtz",
         "srv-delfiori-mt"
     ],
     "pacotes": {
@@ -16,7 +15,7 @@
         },
         "1.80": {
             "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager_v1.80.zip",
-            "hash": "f4971b264765fadc50244efaf228e5b12d96067f86dc54f928b89614921f379b"
+            "hash": "34548262a7b1cece26ab13ba7002b3b5f802b1f818d5ab72727757db864b1bc9"
         }
     },
     "changelogs": {
