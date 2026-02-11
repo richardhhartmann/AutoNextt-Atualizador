@@ -1,0 +1,14 @@
+{
+    "versao_estavel": "1.73",
+    "versao_piloto": "1.73",
+    "alvos_piloto": [],
+    "pacotes": {
+        "1.73": {
+            "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager.zip",
+            "hash": "fdc1c4ad7876813037fe508f5864de75c39fbc3b376aa65428feb079443d4bfb"
+        }
+    },
+    "changelogs": {
+        "1.73": "Melhorias e correções."
+    }
+}
