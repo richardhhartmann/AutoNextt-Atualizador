@@ -1,26 +1,27 @@
 {
     "versao_estavel": "1.79",
-    "versao_piloto": "1.79",
+    "versao_piloto": "1.80",
     "alvos_piloto": [
-        "NEXTTDEMxMTZ"
+        "srv-delfiori-mtz",
+        "srv-delfiori-mt"
     ],
     "pacotes": {
         "1.73": {
             "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager.zip",
             "hash": "fdc1c4ad7876813037fe508f5864de75c39fbc3b376aa65428feb079443d4bfb"
         },
-        "1.78": {
-            "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager_v1.78.zip",
-            "hash": "60708b489e146688205cdc9c00ecf0ff2648b2042369c871be5e7f1f87338c6a"
-        },
         "1.79": {
             "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager_v1.79.zip",
             "hash": "252161915ace248aab99ee037020afcccceca56e708a62d54f77326d3628bbda"
+        },
+        "1.80": {
+            "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager_v1.80.zip",
+            "hash": "f4971b264765fadc50244efaf228e5b12d96067f86dc54f928b89614921f379b"
         }
     },
     "changelogs": {
         "1.73": "Melhorias e corre\u00e7\u00f5es.",
-        "1.78": "",
-        "1.79": ""
+        "1.79": "",
+        "1.80": ""
     }
 }
