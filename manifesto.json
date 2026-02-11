@@ -1,6 +1,6 @@
 {
-    "versao_estavel": "1.74",
-    "versao_piloto": "1.74",
+    "versao_estavel": "1.75",
+    "versao_piloto": "1.75",
     "alvos_piloto": [
         "NEXTTDEMxMTZ"
     ],
@@ -12,10 +12,15 @@
         "1.74": {
             "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager_v1.74.zip",
             "hash": "09bd6ae5862b737bfd7c2542563d065a9b5f0d8b48ee112a91c72b6027482518"
+        },
+        "1.75": {
+            "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager_v1.75.zip",
+            "hash": "4bc2b5ec13751b4b13e740a5b1625273d0183452879af0b8f1387309c6899043"
         }
     },
     "changelogs": {
         "1.73": "Melhorias e corre\u00e7\u00f5es.",
-        "1.74": ""
+        "1.74": "",
+        "1.75": ""
     }
 }
