@@ -1,6 +1,6 @@
 {
-    "versao_estavel": "1.79",
-    "versao_piloto": "1.85",
+    "versao_estavel": "1.86",
+    "versao_piloto": "1.86",
     "alvos_piloto": [
         "srv-delfiori-mt",
         "srv-delfiori-mtz"
@@ -10,18 +10,18 @@
             "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager.zip",
             "hash": "fdc1c4ad7876813037fe508f5864de75c39fbc3b376aa65428feb079443d4bfb"
         },
-        "1.81": {
-            "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager_v1.81.zip",
-            "hash": "c7bb7446aae1c965e20bc6fe51a103c8f1d285df606cb3a6778d8f9a407860b9"
-        },
         "1.85": {
             "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager_v1.85.zip",
             "hash": "df52970e720220fdab2fb04c856c94f4f7e2e2ad0a429ec7af17d1f4e1bd6fbe"
+        },
+        "1.86": {
+            "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager_v1.86.zip",
+            "hash": "434ad0bd2b35dd6818f34f60072c3d20c0e28a1df463ea5c8634cadc26f1fff1"
         }
     },
     "changelogs": {
         "1.73": "Melhorias e corre\u00e7\u00f5es.",
-        "1.81": "",
-        "1.85": ""
+        "1.85": "",
+        "1.86": ""
     }
 }
