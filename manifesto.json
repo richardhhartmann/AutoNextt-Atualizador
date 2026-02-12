@@ -1,6 +1,6 @@
 {
     "versao_estavel": "1.85",
-    "versao_piloto": "1.92",
+    "versao_piloto": "1.93",
     "alvos_piloto": [
         "NEXTTDEMxMTZ"
     ],
@@ -9,18 +9,18 @@
             "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager.zip",
             "hash": "fdc1c4ad7876813037fe508f5864de75c39fbc3b376aa65428feb079443d4bfb"
         },
-        "1.91": {
-            "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager_v1.91.zip",
-            "hash": "99a0124b4cfb1c031388769e5b0a18f63c3d06376079dc2692383193f766294d"
-        },
         "1.92": {
             "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager_v1.92.zip",
             "hash": "887751c57be581eaf10a88df3530a946d9d4c7d6c7f09a25ac928df9d0c93145"
+        },
+        "1.93": {
+            "url": "https://github.com/richardhhartmann/AutoNextt-Atualizador/raw/main/VYAManager_v1.93.zip",
+            "hash": "528716b012a89f703900ff9803dc84a7221e521947ced6956c64741374e3d931"
         }
     },
     "changelogs": {
         "1.73": "Melhorias e corre\u00e7\u00f5es.",
-        "1.91": "",
-        "1.92": ""
+        "1.92": "",
+        "1.93": ""
     }
 }
