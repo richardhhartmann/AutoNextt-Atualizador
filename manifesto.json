@@ -1,6 +1,6 @@
 {
-    "versao_estavel": "1.86",
-    "versao_piloto": "1.86",
+    "versao_estavel": "1.85",
+    "versao_piloto": "1.85",
     "alvos_piloto": [
         "srv-delfiori-mt",
         "srv-delfiori-mtz"
