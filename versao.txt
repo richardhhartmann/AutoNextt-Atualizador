@@ -1,3 +1,2 @@
-version=1.74
-hash=09bd6ae5862b737bfd7c2542563d065a9b5f0d8b48ee112a91c72b6027482518
-changelog=Atualizacao de infraestrutura
+version=1.75
+hash=eb03709d44fe11e14a09094ec1f6c5c8e86762dc78bae75f1cb35ed820caaa09
